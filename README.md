@@ -85,7 +85,7 @@ templates/eval.template.md 起草 eval.md 的 §0、§1（AC 覆盖矩阵 + §1.
 §4（非功能门槛），不用等 plan.md / tasks.md 存在。§3（系统级回归确认）和
 §5（不改清单核对）依赖 plan.md，先留空，等 plan.md 确认后再补。
 
-§1.1 的测试用例：先把 test-cases.md 的 15 条（简单/较复杂/复杂各 5）搬进来，
+§1.1 的测试用例：先把 tests/test-cases.md 的 15 条（简单/较复杂/复杂各 5）搬进来，
 再按我们组选的场景补足到 20 条以上。注意评委现场会另用一套未公开的语句抽测，
 所以补的时候要覆盖场景本身，不要只围着这 15 条打转。
 ```
@@ -142,7 +142,7 @@ eval.md 判定结论为"通过"或"有条件通过"后，请完成 tasks.md 的 
 
 ```
 prd.md                          业务需求（已给，不要修改）
-test-cases.md                   功能测试用例 15 条（简单/较复杂/复杂 各 5），自测用，扩进 eval.md §1.1
+tests/test-cases.md             功能测试用例 15 条（简单/较复杂/复杂 各 5），自测用，扩进 eval.md §1.1
 assets/ui-reference.svg         PRD 引用的 UI 参考图
 templates/                      五份产出文档的结构模板（Coding Agent 起草时参照，人评审后重命名去掉 .template）
   spec.template.md
