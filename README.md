@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-2 天工作坊的最后 3 小时，每组从 `prd.md` 出发，完整走一遍 SDD（Spec-Driven Development）链路。**五份产出文档全部由 Coding Agent 起草**，人不从零手写，只做评审（纠错 + 补充），确认后再进入下一步：
+每组从 `prd.md` 出发，完整走一遍 SDD（Spec-Driven Development）链路。**五份产出文档全部由 Coding Agent 起草**，人不从零手写，只做评审（纠错 + 补充），确认后再进入下一步：
 
 ```mermaid
 flowchart TD
