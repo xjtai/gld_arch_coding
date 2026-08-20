@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <clipPath id="win">
+      <rect x="0" y="0" width="1200" height="800" rx="16" />
+    </clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a5cd6" />
+      <stop offset="1" stop-color="#8f72e8" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b4fd6" />
+    </marker>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect x="0" y="0" width="1200" height="800" fill="url(#bg)" />
+
+    <!-- browser chrome -->
+    <rect x="0" y="0" width="1200" height="42" fill="#eceaf2" />
+    <circle cx="22" cy="21" r="6" fill="#ff5f57" />
+    <circle cx="42" cy="21" r="6" fill="#febc2e" />
+    <circle cx="62" cy="21" r="6" fill="#28c840" />
+    <rect x="95" y="8" width="240" height="26" rx="8" fill="#ffffff" />
+    <text x="115" y="25" font-size="12" fill="#333">🤖 多智能体客服系统 - 演示</text>
+    <rect x="0" y="42" width="1200" height="30" fill="#f4f3f8" />
+    <text x="600" y="62" font-size="12" fill="#666" text-anchor="middle">🔒 http://127.0.0.1:5001</text>
+
+    <!-- title -->
+    <text x="600" y="118" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">🤖 多智能体客服系统 演示</text>
+    <text x="600" y="142" font-size="13" fill="#e5e0ff" text-anchor="middle">基于 LlamaIndex ReAct 架构</text>
+
+    <!-- Panel 1: 对话 -->
+    <g>
+      <rect x="30" y="165" width="365" height="600" rx="14" fill="#ffffff" opacity="0.97" />
+      <path d="M30,179 a14,14 0 0 1 14,-14 h337 a14,14 0 0 1 14,14 v26 h-365 z" fill="#efeaff" />
+      <text x="50" y="197" font-size="15" font-weight="600" fill="#3d2f8f">💬 对话</text>
+
+      <rect x="205" y="228" width="170" height="34" rx="16" fill="#5b4fd6" />
+      <text x="290" y="250" font-size="13" fill="#ffffff" text-anchor="middle">手机的保修期限？</text>
+
+      <rect x="50" y="276" width="300" height="56" rx="14" fill="#f2f1f7" />
+      <text x="66" y="298" font-size="12.5" fill="#333">手机享受1年质保，全国联保，</text>
+      <text x="66" y="317" font-size="12.5" fill="#333">并支持上门维修服务。</text>
+
+      <rect x="290" y="346" width="85" height="34" rx="16" fill="#5b4fd6" />
+      <text x="332" y="368" font-size="13" fill="#ffffff" text-anchor="middle">价格呢</text>
+
+      <rect x="50" y="394" width="235" height="34" rx="14" fill="#f2f1f7" />
+      <text x="66" y="416" font-size="12.5" fill="#333">手机的价格是3999元起。</text>
+
+      <rect x="140" y="442" width="235" height="34" rx="16" fill="#5b4fd6" />
+      <text x="257" y="464" font-size="13" fill="#ffffff" text-anchor="middle">订单3426436我要退款</text>
+
+      <rect x="50" y="490" width="320" height="76" rx="14" fill="#f2f1f7" />
+      <text x="66" y="512" font-size="12.5" fill="#333">订单3426436的退款申请已提交，</text>
+      <text x="66" y="531" font-size="12.5" fill="#333">退款将在3-5个工作日内退回原</text>
+      <text x="66" y="550" font-size="12.5" fill="#333">支付账户。</text>
+
+      <rect x="50" y="712" width="245" height="34" rx="8" fill="#f4f3f8" stroke="#ddd" />
+      <text x="64" y="734" font-size="12" fill="#999">输入您的问题...</text>
+      <rect x="305" y="712" width="70" height="34" rx="8" fill="#5b4fd6" />
+      <text x="340" y="734" font-size="12.5" fill="#ffffff" text-anchor="middle">发送</text>
+    </g>
+
+    <!-- Panel 2: 执行流程 -->
+    <g>
+      <rect x="415" y="165" width="375" height="600" rx="14" fill="#ffffff" opacity="0.97" />
+      <path d="M415,179 a14,14 0 0 1 14,-14 h347 a14,14 0 0 1 14,14 v26 h-375 z" fill="#efeaff" />
+      <text x="435" y="197" font-size="15" font-weight="600" fill="#3d2f8f">⚙️ 执行流程</text>
+      <rect x="715" y="172" width="60" height="26" rx="6" fill="#ece9f7" />
+      <text x="745" y="189" font-size="11" fill="#5b4fd6" text-anchor="middle">清空</text>
+
+      <!-- card 1 -->
+      <rect x="435" y="216" width="335" height="70" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="238" font-size="12.5" font-weight="600" fill="#333">⚡ 路由决策</text>
+      <text x="755" y="238" font-size="10" fill="#999" text-anchor="end">16:26:38</text>
+      <text x="450" y="258" font-size="11" fill="#555">路由到 [售后咨询智能体]</text>
+
+      <!-- card 2 -->
+      <rect x="435" y="294" width="335" height="70" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="316" font-size="12.5" font-weight="600" fill="#333">⚡ 售后咨询智能体</text>
+      <text x="755" y="316" font-size="10" fill="#999" text-anchor="end">16:26:38</text>
+      <text x="450" y="336" font-size="11" fill="#555">开始处理用户问题...</text>
+
+      <!-- card 3 -->
+      <rect x="435" y="372" width="335" height="70" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="394" font-size="12.5" font-weight="600" fill="#333">🔧 调用工具: 处理退款申请</text>
+      <text x="755" y="394" font-size="10" fill="#999" text-anchor="end">16:26:43</text>
+      <text x="450" y="414" font-size="11" fill="#555">参数: order_id=3426436</text>
+
+      <!-- card 4 -->
+      <rect x="435" y="450" width="335" height="86" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="472" font-size="12.5" font-weight="600" fill="#2a9d5b">✅ 工具返回: 处理退款申请</text>
+      <text x="755" y="472" font-size="10" fill="#999" text-anchor="end">16:26:43</text>
+      <text x="450" y="492" font-size="11" fill="#555">订单 3426436 的退款申请已提交，退款将</text>
+      <text x="450" y="508" font-size="11" fill="#555">在3-5个工作日内退回原支付账户。</text>
+
+      <!-- card 5 -->
+      <rect x="435" y="546" width="335" height="86" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="568" font-size="12.5" font-weight="600" fill="#2a9d5b">✅ 售后咨询智能体</text>
+      <text x="755" y="568" font-size="10" fill="#999" text-anchor="end">16:26:48</text>
+      <text x="450" y="588" font-size="11" fill="#555">处理完成 / 订单3426436的退款申请已</text>
+      <text x="450" y="604" font-size="11" fill="#555">提交，退款将在3-5个工作日内退回原支付账户</text>
+
+      <!-- card 6 -->
+      <rect x="435" y="642" width="335" height="70" rx="10" fill="#f8f7fc" stroke="#eee" />
+      <text x="450" y="664" font-size="12.5" font-weight="600" fill="#2a9d5b">✅ 完成</text>
+      <text x="755" y="664" font-size="10" fill="#999" text-anchor="end">16:26:52</text>
+      <text x="450" y="684" font-size="11" fill="#555">所有处理已完成</text>
+    </g>
+
+    <!-- Panel 3: 智能体拓扑图 -->
+    <g>
+      <rect x="805" y="165" width="365" height="600" rx="14" fill="#ffffff" opacity="0.97" />
+      <path d="M805,179 a14,14 0 0 1 14,-14 h337 a14,14 0 0 1 14,14 v26 h-365 z" fill="#efeaff" />
+      <text x="825" y="197" font-size="15" font-weight="600" fill="#3d2f8f">🔄 智能体拓扑图</text>
+
+      <!-- 用户 -->
+      <rect x="932.5" y="235" width="110" height="42" rx="8" fill="#f2f1f7" stroke="#ccc" />
+      <text x="987.5" y="261" font-size="13" fill="#333" text-anchor="middle">👤 用户</text>
+
+      <line x1="987.5" y1="277" x2="987.5" y2="320" stroke="#5b4fd6" stroke-width="2" marker-end="url(#arrow)" />
+
+      <!-- 路由智能体 -->
+      <rect x="917.5" y="322" width="140" height="44" rx="8" fill="#eef0ff" stroke="#5b4fd6" stroke-width="1.5" />
+      <text x="987.5" y="350" font-size="13" fill="#3d2f8f" text-anchor="middle">🔍 路由智能体</text>
+
+      <line x1="987.5" y1="366" x2="870" y2="440" stroke="#9b93d8" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+      <line x1="987.5" y1="366" x2="980" y2="440" stroke="#9b93d8" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+      <line x1="987.5" y1="366" x2="1090" y2="440" stroke="#9b93d8" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)" />
+
+      <!-- children -->
+      <rect x="820" y="442" width="100" height="40" rx="8" fill="#f2f1f7" stroke="#ccc" />
+      <text x="870" y="466" font-size="12" fill="#333" text-anchor="middle">🛒 售前咨询</text>
+
+      <rect x="930" y="442" width="100" height="40" rx="8" fill="#f2f1f7" stroke="#ccc" />
+      <text x="980" y="466" font-size="12" fill="#333" text-anchor="middle">🔧 售后咨询</text>
+
+      <rect x="1040" y="442" width="100" height="40" rx="8" fill="#f2f1f7" stroke="#ccc" />
+      <text x="1090" y="466" font-size="12" fill="#333" text-anchor="middle">💬 闲聊</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="798" rx="16" fill="none" stroke="#d8d4ee" stroke-width="2" />
+</svg>

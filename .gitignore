@@ -1,0 +1,39 @@
+# ── 密钥：最重要的一条 ────────────────────────────────
+# 模型 API Key 一旦推上远端，撤销 Key 是唯一补救，别赌没人看见
+.env
+.env.*
+!.env.example
+*.key
+secrets.*
+
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ── Java / Maven / Gradle ────────────────────────────
+target/
+build/
+.gradle/
+*.class
+*.jar
+
+# ── Node（前端页面如果用到）──────────────────────────
+node_modules/
+dist/
+.npm/
+
+# ── 编辑器 / 系统 ────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ── 运行产物 ─────────────────────────────────────────
+*.log
+logs/
+.cache/
