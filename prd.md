@@ -1,9 +1,9 @@
 ---
-prdId: PRD-2026-CMS-WORKSHOP-001
+prdId: PRD-2026-GXL-WORKSHOP-001
 type: prd
 title: 企业级高可用多智能体客服 AI 智能体系统
-author: AI Coding 实战工作坊教学组
-reviewers: [招商证券培训项目负责人, 助教/评审团队]
+author: AI 全流程实战落地工作坊教学组
+reviewers: [广小联培训项目负责人, 助教/评审团队]
 status: 待分组认领
 priority: P0
 created_at: 2026-08-10
@@ -47,9 +47,9 @@ related: [templates/spec.template.md, templates/plan.template.md, templates/task
         供下次需求开发复用。完整流程说明见本文件 §5。
 ────────────────────────────────────────────────────────────── -->
 
-# PRD-2026-CMS-WORKSHOP-001｜企业级高可用多智能体客服 AI 智能体系统
+# PRD-2026-GXL-WORKSHOP-001｜企业级高可用多智能体客服 AI 智能体系统
 
-> 提出：AI Coding 实战工作坊教学组　场景：招商证券 AI Coding 实战工作坊　用时：0.5 天（3 小时）分组实战
+> 提出：AI 全流程实战落地工作坊教学组　场景：广小联 AI 全流程实战落地工作坊　用时：0.5 天（3 小时）分组实战
 
 ## 1. 背景
 
@@ -57,7 +57,7 @@ related: [templates/spec.template.md, templates/plan.template.md, templates/task
 
 选客服场景的原因：
 
-- 业务足够贴近真实工作（证券/电商类客服都适用），意图分类清晰，不需要额外的领域知识铺垫；
+- 业务足够贴近真实工作（各行业的客服场景都适用），意图分类清晰，不需要额外的领域知识铺垫；
 - 天然适合"多智能体协作"这个训练重点——单一 Agent 硬扛所有意图会又臃肿又难兜底，必须做路由与职责拆分；
 - "高可用"这个企业级要求，能强制学员在 3 小时内也要考虑异常兜底、可观测性，而不是只做一条 happy path。
 
